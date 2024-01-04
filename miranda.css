@@ -1,0 +1,228 @@
+@font-face {
+    font-family:domain ;
+    src: url(./DomaineDispCondMedium.ttf);
+    font-weight: 50;
+    color: rgb(93, 93, 93);
+}
+@font-face {
+    font-family: editorial;
+    src: url(./_EditorialNew-Light.ttf);
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: #BEB7AD;
+    border-bottom:1.4px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 12px;
+}
+#main{
+    background-color: #1C1C1A;
+    overflow-x: hidden;
+}
+i{
+    text-align: right;
+    margin-right: 20px;
+}
+#page-1{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #BEB7AD;
+    position: relative;
+    overflow: hidden;
+}
+nav>img{
+    background-color: #BEB7AD;
+    height: 50px;
+    width: 130px;
+}
+#elems{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 60px;
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+    /* background-color: royalblue; */
+}
+#elem1>#img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem3>#img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#img-div img:hover{
+    transform: scale(1.1);
+}
+#img-div>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition:all 1s ease ;
+}
+#elem2{
+    width: 30%;
+    height: 100%;
+    /* background-color: royalblue; */
+    border-right: 1px solid rgb(105, 105, 105);
+     border-left: 1px solid rgb(105, 105, 105) ;
+     padding: 20px 34px;
+     text-align: center; 
+     margin :20px;
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    /* background-color: royalblue; */
+}
+#elem1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:canopee ;
+}
+#elem1 h4 span{
+    color: white;
+    background-color: #B83C12;
+    padding: 4px;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+#elem1 p{
+    font-size: 13px;
+    font-family: domain;
+    text-align: justify;
+}
+#elem3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:canopee ;
+}
+#elem3 h4 span{
+    color: white;
+    background-color: #B83C12;
+    padding: 4px;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+#elem2 h2{
+    font-family: canopee;
+    font-size: 50px;
+}
+#elem2 h3{
+    font-family: domain;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+#elem2 h5{
+    font-family: domain;
+    font-weight: 200;
+    font-size: 16px;
+    color: #393939;
+    margin-top: 10px;
+}
+#elem3 p{
+    font-size: 13px;
+    font-family: domain;
+    text-align: justify;
+}
+#page-1>h1{
+    width: 95%;
+    font-family: canopee;
+    font-size: 430px;
+    font-weight: 100;
+    background-color: #1C1C1A;
+    color: #BEB7AD;
+    /* margin-top: 10px; */
+    margin-left: 2%;
+    line-height: 400px;
+}
+#page-2{
+    background-color: #BEB7AD;
+    height: 150vh;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#page-2>#left{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-right: 2px solid rgb(58, 58, 58);
+    overflow: hidden;
+}
+#left>h2{
+    font-family: canopee;
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: -1px;
+    font-weight: 100;
+    line-height: 90px;
+}
+#left>p{
+    width: 95%;
+    font-family: domain;
+    text-align: justify;
+    margin-top: 30px;
+    font-weight: 50;
+    font-size: 30px;
+    line-height: 33px;
+    clear: left;
+}
+#left>p::first-letter{
+    font-family: domain;
+    font-size: 50px;
+    color: #BEB7AD;
+    background-color: #393939;
+    border-radius: 10px;
+}
+#right{
+    width: 65%;
+    margin-left: 30px;
+    margin-top: 2%;
+}
+#left>img{
+    object-fit: cover;
+    width: 95%;
+    height: 500px;
+    margin-right: 2%;
+}
+
+#right>img{
+    height:60%px;
+    padding: 10px;
+    width: 97%;
+    margin: auto;
+}
+#right>h2{
+    font-family: canopee;
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 100;
+}
